@@ -1,5 +1,5 @@
-# Catppuccin-burp-theme
-A Catpuccin theme file for the **Burp Suite Customizer** extension
+# Catppuccin Mocha Theme for Burp Suite 
+A Catpuccin theme file for the **Burp Suite Customizer** extension!
 
 Download the `catppuccin.theme.json` file and give it to the Customizer extension.
 For more information, visit [Burp Customizer's github repo](https://github.com/C0DEbrained/BurpCustomizer?tab=readme-ov-file)
