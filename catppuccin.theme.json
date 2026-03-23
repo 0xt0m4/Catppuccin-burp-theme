@@ -1,0 +1,221 @@
+{
+  "name": "Catppuccin Mocha",
+  "author": "Community",
+  "dark": true,
+  "editorScheme": "/Catppuccin_Mocha.xml",
+  "colors": {
+    "base": "#1e1e2e",
+    "mantle": "#181825",
+    "crust": "#11111b",
+    "surface0": "#313244",
+    "surface1": "#45475a",
+    "surface2": "#585b70",
+    "overlay0": "#6c7086",
+    "text": "#cdd6f4",
+    "subtext0": "#a6adc8",
+    "lavender": "#b4befe",
+    "blue": "#89b4fa",
+    "sapphire": "#74c7ec",
+    "sky": "#89dceb",
+    "teal": "#94e2d5",
+    "green": "#a6e3a1",
+    "yellow": "#f9e2af",
+    "peach": "#fab387",
+    "maroon": "#eba0ac",
+    "red": "#f38ba8",
+    "mauve": "#cba6f7",
+    "pink": "#f5c2e7",
+    "flamingo": "#f2cdcd",
+    "rosewater": "#f5e0dc"
+  },
+  "ui": {
+    "*": {
+      "background": "base",
+      "foreground": "text",
+      "selectionBackground": "surface1",
+      "selectionForeground": "text"
+    },
+    "ActionButton": {
+      "pressedBackground": "surface0",
+      "pressedBorderColor": "surface0",
+      "hoverBackground": "surface1",
+      "hoverBorderColor": "surface1"
+    },
+    "Borders": {
+      "color": "surface0",
+      "ContrastBorderColor": "surface0"
+    },
+    "Button": {
+      "background": "surface0",
+      "startBackground": "surface0",
+      "endBackground": "mantle",
+      "startBorderColor": "surface0",
+      "endBorderColor": "surface0",
+      "foreground": "text",
+      "default": {
+        "startBackground": "mauve",
+        "endBackground": "pink",
+        "startBorderColor": "mauve",
+        "endBorderColor": "pink",
+        "foreground": "base"
+      }
+    },
+    "CheckBox": {
+      "background": "base"
+    },
+    "CheckBoxMenuItem": {
+      "background": "base"
+    },
+    "ColorChooser": {
+      "background": "mantle"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "surface0",
+        "nonEditableBackground": "surface0"
+      },
+      "background": "mantle",
+      "foreground": "text",
+      "nonEditableBackground": "mantle",
+      "selectionBackground": "surface1"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "surface1"
+    },
+    "DefaultTabs": {
+      "background": "mantle",
+      "borderColor": "surface0",
+      "hoverBackground": "surface0",
+      "underlinedTabBackground": "surface0"
+    },
+    "EditorTabs": {
+      "background": "mantle",
+      "borderColor": "surface0",
+      "underlinedTabBackground": "surface0"
+    },
+    "Label": {
+      "background": "base",
+      "foreground": "text"
+    },
+    "Link": {
+      "activeForeground": "blue",
+      "hoverForeground": "sapphire",
+      "visitedForeground": "lavender"
+    },
+    "List": {
+      "background": "base",
+      "selectionBackground": "surface1"
+    },
+    "Menu": {
+      "background": "mantle",
+      "foreground": "text",
+      "selectionBackground": "surface1"
+    },
+    "MenuBar": {
+      "background": "mantle",
+      "disabledBackground": "base"
+    },
+    "OptionPane": {
+      "background": "base"
+    },
+    "Panel": {
+      "background": "base",
+      "foreground": "text"
+    },
+    "PasswordField": {
+      "background": "mantle",
+      "selectionBackground": "surface1"
+    },
+    "Plugins": {
+      "lightSelectionBackground": "surface1"
+    },
+    "Popup": {
+      "Toolbar.background": "mantle"
+    },
+    "PopupMenu": {
+      "background": "mantle"
+    },
+    "ProgressBar": {
+      "background": "surface0",
+      "foreground": "blue"
+    },
+    "RadioButton": {
+      "background": "base"
+    },
+    "RadioButtonMenuItem": {
+      "background": "base"
+    },
+    "ScrollBar": {
+      "background": "mantle",
+      "thumb": "surface1"
+    },
+    "ScrollPane": {
+      "background": "base"
+    },
+    "Slider": {
+      "background": "base"
+    },
+    "Spinner": {
+      "background": "mantle"
+    },
+    "SplitPane": {
+      "background": "base"
+    },
+    "TabbedPane": {
+      "background": "mantle",
+      "contentAreaColor": "surface0"
+    },
+    "Table": {
+      "background": "base",
+      "foreground": "text",
+      "gridColor": "surface0",
+      "selectionBackground": "surface1",
+      "selectionForeground": "text",
+      "focusCellBackground": "surface1"
+    },
+    "TextArea": {
+      "background": "base"
+    },
+    "TextField": {
+      "background": "mantle",
+      "foreground": "text"
+    },
+    "TextPane": {
+      "background": "base"
+    },
+    "ToggleButton": {
+      "background": "surface0"
+    },
+    "ToolBar": {
+      "background": "mantle"
+    },
+    "ToolTip": {
+      "background": "surface0",
+      "foreground": "text"
+    },
+    "ToolWindow": {
+      "Header.background": "mantle",
+      "Header.borderColor": "surface0",
+      "Header.inactiveBackground": "base"
+    },
+    "Tree": {
+      "background": "base",
+      "foreground": "text",
+      "modifiedItemForeground": "yellow",
+      "selectionBackground": "surface1"
+    },
+    "Viewport": {
+      "background": "base"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "base",
+      "Checkbox.Background.Default": "base",
+      "Checkbox.Background.Selected.Dark": "mauve",
+      "Checkbox.Background.Selected": "mauve",
+      "Checkbox.Foreground.Selected.Dark": "base",
+      "Checkbox.Foreground.Selected": "base"
+    }
+  }
+}
